@@ -9,7 +9,7 @@ import { Livro } from './livro';
 })
 export class LivroComponent {
 
-  livro = input.required<Livro>();
+  livro = input.required<Livro>(); //Property Binding (Input Property Binding)
 
   alternarFavorito() {
     this.livro().favorito = !this.livro().favorito;
