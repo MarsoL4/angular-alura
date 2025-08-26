@@ -47,11 +47,13 @@ section .info-livro > * {
 section .imagem {
   margin-top: 32px;
 }
+
 section img {
   width: 128px;
   height: 184px;
   margin-bottom: 20px;
 }
+
 .favorito-btn {
   position: absolute;
   top: 32px;
@@ -64,6 +66,7 @@ section img {
   padding: 0;
   outline: none;
 }
+
 .favorito-btn:hover {
   opacity: 0.8;
   transform: scale(1.1);
