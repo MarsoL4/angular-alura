@@ -1,6 +1,9 @@
 <section>
+    <div class="imagem">
+        <img [src]="livro.imagem" [alt]="livro.titulo"> <!--Property Binding (Interpolação)-->
+    </div>
     <div class="info-livro">
-        <h2 class="texto-h2">{{ livro.titulo.toUpperCase() }}</h2> <!-- Sintaxe própria do Angular para fazer Biding da classe ts para esse template html -->
+        <h2 class="texto-h2">{{ livro.titulo.toUpperCase() }}</h2> <!-- Sintaxe própria do Angular para fazer Biding da classe ts para esse template html (Interpolação) -->
         <h3 class="texto-h3">{{ livro.autoria }}</h3>
     </div>
 </section>
